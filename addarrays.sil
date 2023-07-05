@@ -1,0 +1,22 @@
+procedure addarrays(arr1, arr2, result, len);
+idx;
+begin
+    idx := 0;
+    while idx < len do
+        begin
+        result[idx] := arr1[idx] * arr2[idx];
+        idx := idx + 1
+        end
+end;
+arr1 := array[10];
+arr2 := array[10];
+result := array[10];
+idx := 0;
+while idx < 10 do
+    begin
+    arr1[idx] := idx * idx;
+    arr2[idx] := idx * (idx * idx);
+    idx := idx + 1
+    end
+addarrays(arr1, arr2, result, 10);
+print result[5];
