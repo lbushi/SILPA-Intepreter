@@ -17,5 +17,6 @@ For example here is how to run the factorial and factorize programs:
 
 --Output--
 
-2\n
+2
+
 7
