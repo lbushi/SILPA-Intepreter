@@ -8,10 +8,14 @@ The files addarrays.sil, factorial.sil, recursivefactorial.sil and factorize.sil
 For example here is how to run the factorial and factorize programs:
 
 ./frontend factorial.sil 10
+
 --Output--
+
 3628800
 
 ./frontend factorize.sil 14
+
 --Output--
+
 2
 7
